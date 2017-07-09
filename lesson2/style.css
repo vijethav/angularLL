@@ -1,0 +1,31 @@
+body{
+	padding: 50px;
+}
+
+.div{
+	padding: 50px;
+}
+
+.even{
+	color: red ;
+}
+
+.odd{
+	color: blue;
+}
+
+#searchText{
+	padding: 3px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+
+}
+
+.album{
+	width: 300px; 
+	float: left; 
+	margin-right: 10px
+}
+#albumDate{
+	float: right
+	}
