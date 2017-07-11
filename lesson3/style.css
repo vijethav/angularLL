@@ -1,0 +1,44 @@
+body{
+	padding: 50px;
+}
+
+.div{
+	padding: 50px;
+}
+
+.even{
+	color: red ;
+}
+
+.odd{
+	color: blue;
+}
+
+input[type=text] {
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+textarea{
+	padding: 3px;
+   border-radius: 5px;
+   border: 1px solid #bbb;
+   width: 100%
+}
+
+.albumName{
+	width: 100%;
+}
+
+.space{
+	clear: left;
+}
+.album{
+	width: 300px; 
+	float: left; 
+	margin-right: 10px
+}
+#albumDate{
+	float: right
+	}
