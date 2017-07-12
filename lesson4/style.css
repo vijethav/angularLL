@@ -40,5 +40,14 @@ textarea{
 	margin-right: 10px
 }
 #albumDate{
-	float: right
+	float: right;
 	}
+div.album div.panel-heading a{
+	color: white;
+}
+
+.thumbnail{
+	width: 250px;
+    float: left;
+    margin-right: 10px;
+}

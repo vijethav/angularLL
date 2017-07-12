@@ -1,0 +1,12 @@
+<div>
+ <h3> where is the album {{ album_name }}</h3>
+   <div class="alert alert-danger" ng-show="load_error_text"> {{load_error_text }}</div>
+   <div class="photo thumbnail" ng-repeat="photo in photos" style="width: 250px; float: left; margin-right: 10px">
+      <a href="index.html#/album/{{album.name}}/photos/{{photo.filename}}">
+        <img ng-src="../media/{{album_name}}/thumb/{{photo.filename}}"/>
+       </a>
+       <p>
+           {{ photo.description }}
+       </p>
+   </div> 
+</div>
